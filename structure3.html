@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure3</title>
+    <style>
+  
+        *{ margin-left: 20px;
+        padding: 0;
+        justify-content: center;
+         background-color:rgb(160, 212, 214);}
+        .hf{ background-color: cadetblue;
+             font-size: 40px; text-align: center;
+              color: aliceblue; width: 95%;
+               height: 100px; gap: 10px;}
+        .nav{background-color:rgb(11, 175, 11); 
+            font-size: 40px; text-align: center;
+             color: aliceblue; width: 95%; height: 100px;
+              margin-top: 10px;}
+        .hf1{background-color: cadetblue; gap: 10px
+            ; text-align: center; 
+            margin-top: 10px; font-size: 40px; 
+            color: aliceblue; width: 95%; 
+            height: 100px; gap: 10px; }
+
+            .Aside{ background-color: chartreuse;
+                display: flex;
+                margin-top: 10px;
+                 color: aliceblue;justify-content: center;
+                 align-items: center;height: 310px; width: 30%; 
+                 font-size: 40px; display: flex; margin-left: 10px;
+                 
+            }
+
+            .parent{ display: flex; margin: 10px;}
+
+            .content{ display: flex; justify-content: center;
+            align-items: center; color: aliceblue;
+        background-color: rgb(85, 162, 240);
+         font-size: 40px; width: 96%;
+         height: 150px; margin-top: 10px;
+         margin-left: 10px; 
+    }
+    .Section{ display: flex; justify-content: center;
+            align-items: center; color: aliceblue;
+        background-color: rgb(85, 162, 240);
+         font-size: 40px; width: 96%;
+         height: 150px; margin-top: 10px;
+         margin-left: 10px;
+        justify-self: column;}
+
+        .right-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+    </style>
+</head>
+<body>
+    <div class="hf">Header</div>
+    <div class="nav">Navigation</div>
+     <!-- <div class="parent">
+    <div class="Aside">Aside</div>
+    <div class="content">Content</div>
+    <div class="Section">Section</div></div> -->
+    <div class="parent">
+  <div class="Aside">Aside</div>
+  <div class="right-box">
+    <div class="content">Content</div>
+    <div class="Section">Section</div>
+  </div>
+</div>
+            
+    <div class="hf1">Footer</div>
+</body>
+</html>
