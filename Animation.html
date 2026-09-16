@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+    
+     @keyframes FadeIN{
+     0% { transform: rotate(0deg)}
+     50% {transform: rotate(360deg)}
+     100%{ transform: rotate(0deg)}
+   }  
+    img{ width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    animation-name: FadeIN;
+    animation-duration: 10s;
+    background: none;
+    animation-iteration-count: infinite;}
+
+    
+    .pic{ width: 180px;
+    height: 180px;
+    animation-name: FadeIN;
+    animation-duration: 10s;
+    background: none;
+    animation-iteration-count: infinite;}
+
+    </style>
+</head>
+<body>
+   
+    <div class="pic"><img src="image1.jfif" alt=""></div>
+    <img src="ea.jpg" alt="">
+
+
+
+</body>
+</html>

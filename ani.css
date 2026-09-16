@@ -1,0 +1,30 @@
+
+        @keyframes abc{
+            0%{ transform: rotate(0deg);}
+            50%{ transform: rotate(360deg);}
+            100%{ transform: rotate(0deg);}
+
+        }
+
+.ab{ height: 100px;
+width: 100px;
+border: black 2px  solid;
+
+border-left: red 2px solid;
+animation-name:abc;
+border-radius: 50%;
+animation-duration: 5s;
+animation-iteration-count: infinite;}
+
+.con{ height: 50px;
+padding-bottom: 5px;
+
+background-color: rgb(172, 118, 223);
+overflow: hidden;
+}
+.con:hover{
+    height:150px ;
+    transition-duration: 2s;
+    opacity: 0.7;
+    
+ }
